@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Kanit', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li{
+  list-style: none;
+}
+
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+i{
+  cursor: pointer;
+}
+
+@import url("./components/navbar.css"); 
+
+@import url("./components/Auth/auth.css"); 
+
+@import url("./components/Profile/profile.css"); 
+
+@import url("./components/Home/home.css"); 
+
+@import url("./components/CreatePost/create.css");

@@ -1,0 +1,28 @@
+.section-post{
+    width: 90%;
+    max-width: 350px;
+    height: 100%;
+    margin:  30px auto;
+    border: 1px solid #777;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.section-post h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.inputFile{
+    padding: 12px 20px;
+}
+

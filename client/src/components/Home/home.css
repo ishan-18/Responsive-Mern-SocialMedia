@@ -1,0 +1,87 @@
+.section-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 350px;
+    margin: 10px auto;
+    color: #333 !important;
+}
+
+.card1{
+    border: 1px solid #e3e3e3;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.card-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-heading{
+    margin: 10px 0;
+}
+
+.card-heading h4{
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-image img{
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-icons{
+    display: flex;
+    align-items: center;
+}
+
+.card-icons i{
+    margin: 10px 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer h5{
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer h5{
+    font-size: .7rem;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inputText{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: none;
+    border-bottom: 1px dotted #333;
+}
+
+.likes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 10px;
+    font-size: .9rem;
+}
